@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Sexual orientation and gender identity",
+		"displayName": "🏳️‍🌈 and 🏳️‍⚧️",
+		"colorCode": 1
+	},
+	{
+		"name": "Sexual orientation only",
+		"displayName": "only 🏳️‍🌈",
+		"colorCode": 3
+	},
+	{
+		"name": "Protected in some contexts",
+		"displayName": "Protected in some contexts",
+		"colorCode": 5
+	},
+	{
+		"name": "No protections",
+		"displayName": "No protections",
+		"colorCode": 7
+	},
+	{
+		"name": "Varies by region",
+		"displayName": "Varies by region",
+		"colorCode": 99
+	},
+	{ 
+		"name": "Unknown", 
+		"displayName": "Unknown", 
+		"colorCode": 0 
+	},
+	{ 
+		"name": "N/A", 
+		"displayName": "N/A", 
+		"colorCode": 0 
+	},
+	{ 
+		"name": "ambiguous", 
+		"displayName": "ambiguous", 
+		"colorCode": 0 
+	}
+]

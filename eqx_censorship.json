@@ -1,0 +1,52 @@
+[
+	{ 
+		"name": "No censorship", 
+		"displayName": "No censorship", 
+		"colorCode": 1 
+	},
+	{
+		"name": "State-enforced",
+		"displayName": "State-enforced",
+		"colorCode": 3
+	},
+	{
+		"name": "Fine as punishment",
+		"displayName": "Punishment",
+		"colorCode": 4
+	},
+	{ 
+		"name": "Other punishment", 
+		"displayName": "Punishment", 
+		"colorCode": 5 
+	},
+	{
+		"name": "Imprisonment as punishment",
+		"displayName": "⛓️Punishment",
+		"colorCode": 6
+	},
+	{
+		"name": "Death penalty as punishment",
+		"displayName": "💀Punishment",
+		"colorCode": 7
+	},
+	{
+		"name": "Varies by region",
+		"displayName": "Varies by region",
+		"colorCode": 99
+	},
+	{ 
+		"name": "Unknown", 
+		"displayName": "Unknown", 
+		"colorCode": 0 
+	},
+	{ 
+		"name": "N/A", 
+		"displayName": "N/A", 
+		"colorCode": 0 
+	},
+	{ 
+		"name": "ambiguous", 
+		"displayName": "ambiguous", 
+		"colorCode": 0 
+	}
+]

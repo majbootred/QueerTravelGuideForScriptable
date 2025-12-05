@@ -1,0 +1,37 @@
+[
+	{ 
+		"name": "Illegal", 
+		"displayName": "Illegal", 
+		"colorCode": 1 
+	},
+	{
+		"name": "Illegal in some contexts",
+		"displayName": "Illegal in some contexts",
+		"colorCode": 3
+	},
+	{
+		"name": "No protections",
+		"displayName": "No protections",
+		"colorCode": 7
+	},
+	{
+		"name": "Varies by region",
+		"displayName": "Varies by region",
+		"colorCode": 99
+	},
+	{ 
+		"name": "Unknown", 
+		"displayName": "Unknown", 
+		"colorCode": 0 
+	},
+	{ 
+		"name": "N/A", 
+		"displayName": "N/A", 
+		"colorCode": 0 
+	},
+	{ 
+		"name": "ambiguous", 
+		"displayName": "ambiguous", 
+		"colorCode": 0 
+	}
+]
