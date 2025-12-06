@@ -20,7 +20,7 @@
 		"colorCode": 7
 	},
 	{
-		"name": "Varies by region",
+		"name": "Varies by Region",
 		"displayName": "Varies by region",
 		"colorCode": 99
 	},
@@ -35,8 +35,8 @@
 		"colorCode": 0 
 	},
 	{ 
-		"name": "ambiguous", 
-		"displayName": "ambiguous", 
+		"name": "Ambiguous", 
+		"displayName": "Ambiguous", 
 		"colorCode": 0 
 	}
 ]

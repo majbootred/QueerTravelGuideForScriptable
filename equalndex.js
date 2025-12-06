@@ -3,21 +3,22 @@
 // icon-color: orange; icon-glyph: transgender-alt;
 let isoCountryCode = args.widgetParameter
 if (isoCountryCode == null ||isoCountryCode.length != 2){
-    isoCountryCode = await getLocation();
+   isoCountryCode = await getLocation();
     if (!isoCountryCode){
-        isoCountryCode = "DE"
+        isoCountryCode = "RU"
     }    
 } 
 
 let apiResponse = await loadItems(isoCountryCode);
 const displayDataHomosexuality = 
-convertData("homosexuality",apiResponse.issues.homosexuality.current_status.value)
+convertData("homosexuality",apiResponse.issues.homosexuality.current_status.value_formatted);
+console.log(apiResponse.issues["hate-crime-protections"].current_status.value_formatted)
 const displayDataHateCrime = 
-convertData("hate_crime_protection",apiResponse.issues["hate-crime-protections"].current_status.value)
+convertData("hate_crime_protection",apiResponse.issues["hate-crime-protections"].current_status.value_formatted)
 const displayDataDiscrimination =
-convertData("discrimination",apiResponse.issues.discrimination.current_status.value)
+convertData("discrimination",apiResponse.issues.discrimination.current_status.value_formatted)
 const displayDataCensorship =
-convertData("censorship",apiResponse.issues.censorship.current_status.value)
+convertData("censorship",apiResponse.issues.censorship.current_status.value_formatted)
 
 
 let widget = new ListWidget()

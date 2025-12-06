@@ -1,13 +1,41 @@
 [
-{"name":"Legal","displayName":"Legal","colorCode":1},
-{"name":"Male illegal, female legal","displayName":"♂️illegal,♀️legal","colorCode":2},
-{"name":"Male illegal, female uncertain","displayName":"♂️illegal,♀️uncertain","colorCode":3},
-{"name":"Illegal (other penalty)","displayName":"Illegal","colorCode":4},
-{"name":"Illegal (imprisonment as punishment)","displayName":"⛓️Illegal","colorCode":5},
-{"name":"Illegal (up to life in prison as punishment)","displayName":"⛓️Illegal","colorCode":6},
-{"name":"Illegal (death penalty as punishment)","displayName":"💀Illegal","colorCode":7},
-{"name":"Varies by region","displayName":"Varies by region","colorCode":99},
-{"name":"Unknown","displayName":"Unknown","colorCode":0},
-{"name":"N/A","displayName":"N/A","colorCode":0},
-{"name":"ambiguous","displayName":"ambiguous","colorCode":0}
+	{ "name": "Legal", "displayName": "Legal", "colorCode": 1 },
+	{
+		"name": "Male illegal, female legal",
+		"displayName": "♂️illegal,♀️legal",
+		"colorCode": 2
+	},
+	{
+		"name": "Male illegal, female uncertain",
+		"displayName": "♂️illegal,♀️uncertain",
+		"colorCode": 3
+	},
+	{
+		"name": "Illegal (other penalty)",
+		"displayName": "Illegal",
+		"colorCode": 4
+	},
+	{
+		"name": "Illegal (imprisonment as punishment)",
+		"displayName": "⛓️Illegal",
+		"colorCode": 5
+	},
+	{
+		"name": "Illegal (up to life in prison as punishment)",
+		"displayName": "⛓️Illegal",
+		"colorCode": 6
+	},
+	{
+		"name": "Illegal (death penalty as punishment)",
+		"displayName": "💀Illegal",
+		"colorCode": 7
+	},
+	{
+		"name": "Varies by Region",
+		"displayName": "Varies by region",
+		"colorCode": 99
+	},
+	{ "name": "Unknown", "displayName": "Unknown", "colorCode": 0 },
+	{ "name": "N/A", "displayName": "N/A", "colorCode": 0 },
+	{ "name": "Ambiguous", "displayName": "Ambiguous", "colorCode": 0 }
 ]
